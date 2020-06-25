@@ -1,7 +1,7 @@
 html = """
 <html>
 	<body>
-	        <form method="get" action="">
+	        <form action="">
 	                        a = <input type="number" name="a"> <br><br>
 	                        b = <input type="number" name="b">
                         <input type="submit" value="Submit">
