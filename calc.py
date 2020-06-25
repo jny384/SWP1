@@ -10,6 +10,7 @@ def application(environ, start_response):
                 a, b = int(a), int(b)
                 sum = a + b
                 mul = a * b
+	response_body = html % {'sum':sum, 'mul':mul}
         start_response('200 OK', [
                 ('Content-Type', 'text/html'),
                 ('Content-Length', str(len(response_body)))
